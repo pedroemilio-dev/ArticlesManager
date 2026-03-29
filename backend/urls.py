@@ -50,31 +50,31 @@ urlpatterns = [
     path('api/login/', LoginSession.as_view(), name="login-session"),
 
     # ── Users — Backend ───────────────────────────────────────────────
-    path('api/backend/user/', UserDetailViewBackend.as_view(), name='user-detail'),
-    path('api/backend/users/', UserListViewBackend.as_view(), name='user-list'),
-    path('api/backend/users/create/', UserCreateViewBackend.as_view(), name='create-user'),
-    path('api/backend/users/edit/', EditUserViewBackend.as_view(), name='edit-user'),
-    path('api/backend/users/delete/', DeleteUserViewBackend.as_view(), name="delete-user"),
+    path('api/backend/user/', UserDetailViewBackend.as_view(), name='backend-user-detail'),
+    path('api/backend/users/', UserListViewBackend.as_view(), name='backend-user-list'),
+    path('api/backend/users/create/', UserCreateViewBackend.as_view(), name='backend-create-user'),
+    path('api/backend/users/edit/', EditUserViewBackend.as_view(), name='backend-edit-user'),
+    path('api/backend/users/delete/', DeleteUserViewBackend.as_view(), name='backend-delete-user'),
 
     # ── Articles — Backend ────────────────────────────────────────────
-    path('api/backend/articles/', ListArticleView.as_view(), name="list-articles"),
-    path('api/backend/articles/create/', CreateArticleViewBackend.as_view(), name="create-article"),
-    path('api/backend/articles/edit/', EditArticleViewBackend.as_view(), name="edit-article"),
-    path('api/backend/articles/delete/', DeleteArticleViewBackend.as_view(), name="delete-article"),
+    path('api/backend/articles/', ListArticleView.as_view(), name='backend-list-articles'),
+    path('api/backend/articles/create/', CreateArticleViewBackend.as_view(), name='backend-create-article'),
+    path('api/backend/articles/edit/', EditArticleViewBackend.as_view(), name='backend-edit-article'),
+    path('api/backend/articles/delete/', DeleteArticleViewBackend.as_view(), name='backend-delete-article'),
     path('api/backend/articles/<slug:slug>/', ArticleDetailViewBackend.as_view(), name='backend-article-detail'),
     
     # ── Users — Frontend ──────────────────────────────────────────────
-    path('api/user/', UserDetailViewFrontend.as_view(), name='user-detail'),
-    path('api/users/', UserListViewFrontend.as_view(), name='user-list'),
-    path('api/users/create/', UserCreateViewFrontend.as_view(), name='create-user'),
-    path('api/users/edit/', EditUserViewFrontend.as_view(), name='edit-user'),
-    path('api/users/delete/', DeleteUserViewFrontend.as_view(), name="delete-user"),
+    path('api/user/', UserDetailViewFrontend.as_view(), name='frontend-user-detail'),
+    path('api/users/', UserListViewFrontend.as_view(), name='frontend-user-list'),
+    path('api/users/create/', UserCreateViewFrontend.as_view(), name='frontend-create-user'),
+    path('api/users/edit/', EditUserViewFrontend.as_view(), name='frontend-edit-user'),
+    path('api/users/delete/', DeleteUserViewFrontend.as_view(), name='frontend-delete-user'),
 
     # ── Articles — Frontend ───────────────────────────────────────────
-    path('api/articles/', ListArticleView.as_view(), name="list-articles"),
-    path('api/articles/create/', CreateArticleViewFrontend.as_view(), name="create-article"),
-    path('api/articles/edit/', EditArticleViewFrontend.as_view(), name="edit-article"),
-    path('api/articles/delete/', DeleteArticleViewFrontend.as_view(), name="delete-article"),
+    path('api/articles/', ListArticleView.as_view(), name='frontend-list-articles'),
+    path('api/articles/create/', CreateArticleViewFrontend.as_view(), name='frontend-create-article'),
+    path('api/articles/edit/', EditArticleViewFrontend.as_view(), name='frontend-edit-article'),
+    path('api/articles/delete/', DeleteArticleViewFrontend.as_view(), name='frontend-delete-article'),
     path('api/articles/<slug:slug>/', ArticleDetailViewFrontend.as_view(), name='frontend-article-detail'),
 ]
 
