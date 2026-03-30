@@ -1,0 +1,1327 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add auth token",
+    "content_type": 6,
+    "codename": "add_authtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change auth token",
+    "content_type": 6,
+    "codename": "change_authtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete auth token",
+    "content_type": 6,
+    "codename": "delete_authtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view auth token",
+    "content_type": 6,
+    "codename": "view_authtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 8,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 8,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 8,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 8,
+    "codename": "view_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add article",
+    "content_type": 7,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change article",
+    "content_type": 7,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete article",
+    "content_type": 7,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view article",
+    "content_type": 7,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add access attempt",
+    "content_type": 9,
+    "codename": "add_accessattempt"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change access attempt",
+    "content_type": 9,
+    "codename": "change_accessattempt"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete access attempt",
+    "content_type": 9,
+    "codename": "delete_accessattempt"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view access attempt",
+    "content_type": 9,
+    "codename": "view_accessattempt"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add access log",
+    "content_type": 12,
+    "codename": "add_accesslog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change access log",
+    "content_type": 12,
+    "codename": "change_accesslog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete access log",
+    "content_type": 12,
+    "codename": "delete_accesslog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view access log",
+    "content_type": 12,
+    "codename": "view_accesslog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add access failure",
+    "content_type": 11,
+    "codename": "add_accessfailurelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change access failure",
+    "content_type": 11,
+    "codename": "change_accessfailurelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete access failure",
+    "content_type": 11,
+    "codename": "delete_accessfailurelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view access failure",
+    "content_type": 11,
+    "codename": "view_accessfailurelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add access attempt expiration",
+    "content_type": 10,
+    "codename": "add_accessattemptexpiration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change access attempt expiration",
+    "content_type": 10,
+    "codename": "change_accessattemptexpiration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete access attempt expiration",
+    "content_type": 10,
+    "codename": "delete_accessattemptexpiration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view access attempt expiration",
+    "content_type": 10,
+    "codename": "view_accessattemptexpiration"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "knox",
+    "model": "authtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "business",
+    "model": "article"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "business",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "axes",
+    "model": "accessattempt"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "axes",
+    "model": "accessattemptexpiration"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "axes",
+    "model": "accessfailurelog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "axes",
+    "model": "accesslog"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ge41cgfnllwgkenudu1q998cfgbv7o5r",
+  "fields": {
+    "session_data": ".eJxVzDkOwjAURdG9uMaWnW_HNiU9a4j-BGFQImWoEHuHSCmgfve8l-lwXfpunXXqbmKOhkApVikWI6uNkpItqYglQBDNEsijOfwyQn7osFm543AdHY_DMt3IbYnb19mdR9HnaW__Dnqc-6_WilBRQVjRa8OBNAX2UjLUS4HMuc3QZi2RsteaMKPEpuFafVAmNO8Pj6pCaw:1w7Dbk:S_lDERqsqn88wqrHZtl3CUrAb3yKg8V-neWr5_88NME",
+    "expire_date": "2026-04-13T14:28:48.737Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u0dqxh1kl3jf58olijhmnkx7ldzhxwij",
+  "fields": {
+    "session_data": ".eJxVzDkOwjAURdG9uMaWnW_HNiU9a4j-BGFQImWoEHuHSCmgfve8l-lwXfpunXXqbmKOhkApVikWI6uNkpItqYglQBDNEsijOfwyQn7osFm543AdHY_DMt3IbYnb19mdR9HnaW__Dnqc-6_WilBRQVjRa8OBNAX2UjLUS4HMuc3QZi2RsteaMKPEpuFafVAmNO8Pj6pCaw:1w4HGQ:ljelwRIZGGxGQ9eAtUttq0r7Fj4wYokTZFGUHgNGv60",
+    "expire_date": "2026-04-05T11:46:38.599Z"
+  }
+},
+{
+  "model": "knox.authtoken",
+  "pk": "5d209c106eed1ec6bd9faf8e7799caa0569a7fe610a16cfe4c771109a7937eecfacf40c60066acb71bb741b0b737a3d188748be63a57defe7d79e3560eab9eea",
+  "fields": {
+    "token_key": "c20a37adcf99ef4",
+    "user": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+    "created": "2026-03-30T14:54:25.207Z",
+    "expiry": "2026-03-30T17:54:25.205Z"
+  }
+},
+{
+  "model": "business.userprofile",
+  "pk": "560cd81f-8ef0-4e31-b6d8-3fb763b3c055",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$1lINJMjUCj70FsC2SNkskl$MsLB1OiwzHx/LeYJNuFkfT1aVsL2+Rz0Ibnu2ePK+0M=",
+    "last_login": "2026-03-30T13:32:45.719Z",
+    "is_superuser": false,
+    "username": "joao",
+    "first_name": "Joao",
+    "last_name": "Silva",
+    "email": "joao@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-28T17:43:43.119Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "business.userprofile",
+  "pk": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$PYpI0upthTYh7CXafB85I2$FUOz9U0s9wTMab5gyx7K6O6I0GPMn2v2YYsY8u/i3is=",
+    "last_login": "2026-03-30T14:28:48.733Z",
+    "is_superuser": true,
+    "username": "pedro",
+    "first_name": "Pedro",
+    "last_name": "Emilio",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-13T20:20:11.822Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "business.article",
+  "pk": 4,
+  "fields": {
+    "title": "The Importance of Cybersecurity in the Digital Era",
+    "description": "<p>In today’s hyperconnected world, cybersecurity has evolved from a technical necessity into a strategic business priority. Organizations across all industries rely heavily on digital systems, cloud infrastructure, and data-driven processes. While this transformation brings efficiency and scalability, it also introduces a broader and more complex threat landscape.</p><p><br></p><p>Cyberattacks such as ransomware, phishing, and advanced persistent threats (APTs) are increasing in both frequency and sophistication. Attackers are no longer targeting only large enterprises; small and medium-sized businesses are equally vulnerable due to limited security resources. The financial impact of a breach can be devastating, including regulatory fines, operational downtime, and reputational damage.</p><p>To address these risks, organizations must adopt a proactive cybersecurity posture. This includes implementing layered security controls, conducting regular risk assessments, and aligning security strategies with business objectives. Employee awareness is equally critical, as human error remains a leading cause of security incidents.</p><p><br></p><p>Ultimately, cybersecurity should be integrated into the organization’s culture and governance framework. Companies that prioritize security not only protect their assets but also build trust with customers, partners, and stakeholders.</p>",
+    "tags": "Cybersecurity, Digital Transformation, Risk Management, Governance, Information Security",
+    "createdAt": "2026-03-28T16:59:24.458Z",
+    "public_since": "2026-03-28T17:00:06.902Z",
+    "public": "Público",
+    "author": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+    "mainImage": "adi-goldstein-EUsVwEOsblE-unsplash.jpg",
+    "slug": "the-importance-of-cybersecurity-in-the-digital-era"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 5,
+  "fields": {
+    "title": "Phishing: How to Identify and Prevent Attacks",
+    "description": "<p>Phishing attacks continue to be one of the most effective and widely used methods for cybercriminals to compromise systems and steal sensitive information. These attacks typically involve fraudulent communications—often emails or messages—that appear to come from trusted sources, such as financial institutions, colleagues, or service providers.</p><p>Modern phishing campaigns are highly sophisticated, leveraging social engineering techniques and personalized information to increase credibility. Spear-phishing, for instance, targets specific individuals or roles within an organization, making detection even more challenging.</p><p>Recognizing phishing attempts requires a combination of technical controls and user vigilance. Common warning signs include suspicious sender addresses, urgent or threatening language, unexpected attachments, and links that redirect to unfamiliar domains. However, even well-trained users can be deceived by advanced attacks.</p><p>To mitigate phishing risks, organizations should implement multi-factor authentication (MFA), email filtering solutions, and domain monitoring. Regular security awareness training is essential to help employees identify and respond to threats effectively. Simulated phishing exercises can also reinforce learning and improve resilience.</p><p>A comprehensive anti-phishing strategy not only reduces the likelihood of successful attacks but also strengthens the overall security posture of the organization.</p>",
+    "tags": "Phishing, Social Engineering, MFA, Email Security, Awareness Training",
+    "createdAt": "2026-03-28T17:02:07.842Z",
+    "public_since": null,
+    "public": "Público",
+    "author": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+    "mainImage": "dan-nelson-ah-HeguOe9k-unsplash.jpg",
+    "slug": "phishing-how-to-identify-and-prevent-attacks"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 7,
+  "fields": {
+    "title": "Ransomware: A Growing Threat to Businesses",
+    "description": "<p>Ransomware has emerged as one of the most disruptive forms of cybercrime, affecting organizations of all sizes and sectors. This type of malware encrypts critical data or systems, rendering them inaccessible until a ransom is paid—often in cryptocurrency. In many cases, attackers also threaten to leak sensitive data if their demands are not met.</p><p><br></p><p>The rise of “Ransomware-as-a-Service” (RaaS) has further accelerated the spread of these attacks, enabling even low-skilled actors to launch sophisticated campaigns. High-profile incidents have demonstrated the severe operational and financial consequences of ransomware, including prolonged downtime and loss of customer trust.</p><p><br></p><p>Preventing ransomware requires a multi-layered approach. Regular data backups—stored securely and tested frequently—are essential for recovery without paying the ransom. Network segmentation can limit the spread of malware within an organization, while endpoint detection and response (EDR) solutions can help identify and contain threats early.</p><p><br></p><p>Equally important is maintaining up-to-date systems and software, as many ransomware attacks exploit known vulnerabilities. Organizations should also develop and test incident response plans to ensure a swift and coordinated reaction in the event of an attack.</p><p>By combining preventive, detective, and responsive measures, businesses can significantly reduce their exposure to ransomware threats.</p>",
+    "tags": "Ransomware, Malware, Incident Response, Backups, EDR, Cyber Resilience",
+    "createdAt": "2026-03-30T13:34:09.344Z",
+    "public_since": null,
+    "public": "Público",
+    "author": "560cd81f-8ef0-4e31-b6d8-3fb763b3c055",
+    "mainImage": "markus-spiske-iar-afB0QQw-unsplash.jpg",
+    "slug": "ransomware-a-growing-threat-to-businesses"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 8,
+  "fields": {
+    "title": "Zero Trust: A Modern Security Model",
+    "description": "<p>The traditional perimeter-based security model is no longer sufficient in today’s distributed IT environments. With the rise of cloud computing, remote work, and mobile devices, the concept of a secure network boundary has largely disappeared. This shift has led to the adoption of the Zero Trust security model.</p><p><br></p><p>Zero Trust operates on the principle of “never trust, always verify.” Instead of assuming that users or devices inside the network are trustworthy, it requires continuous validation of identity, device posture, and access context. Every request is treated as potentially malicious until proven otherwise.</p><p>Implementing Zero Trust involves several key components, including strong identity and access management (IAM), least-privilege access policies, and continuous monitoring. Technologies such as multi-factor authentication, micro-segmentation, and endpoint security play a critical role in enforcing this model.</p><p><br></p><p>While transitioning to Zero Trust can be complex, the benefits are substantial. It reduces the attack surface, limits lateral movement within networks, and enhances visibility across systems. As organizations continue to embrace digital transformation, Zero Trust is becoming a cornerstone of modern cybersecurity strategies.</p>",
+    "tags": "Zero Trust, IAM, Least Privilege, Network Security, Identity Management",
+    "createdAt": "2026-03-30T13:35:54.451Z",
+    "public_since": null,
+    "public": "Privado",
+    "author": "560cd81f-8ef0-4e31-b6d8-3fb763b3c055",
+    "mainImage": "dan-nelson-AvSFPw5Tp68-unsplash.jpg",
+    "slug": "zero-trust-a-modern-security-model"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 9,
+  "fields": {
+    "title": "The Importance of Software Updates",
+    "description": "<p>Software updates are a critical yet often overlooked component of cybersecurity. While many users associate updates with new features or performance improvements, their primary purpose is often to address security vulnerabilities that could be exploited by attackers.</p><p><br></p><p>Cybercriminals actively scan for systems running outdated software, as these systems are more likely to contain known and unpatched vulnerabilities. Exploiting such weaknesses allows attackers to gain unauthorized access, deploy malware, or escalate privileges within a network.</p><p><br></p><p>Organizations should implement a robust patch management process to ensure that updates are applied promptly and consistently. This includes maintaining an inventory of assets, prioritizing critical patches, and testing updates before deployment to minimize operational disruptions.</p><p><br></p><p>Automation can significantly improve the efficiency of patch management, reducing the risk of human error and ensuring timely updates. Additionally, vulnerability scanning tools can help identify systems that require attention.</p><p><br></p><p>By treating software updates as a core security practice rather than a routine task, organizations can significantly reduce their exposure to cyber threats.</p>",
+    "tags": "Patch Management, Vulnerabilities, Updates, System Security, Risk Mitigation",
+    "createdAt": "2026-03-30T13:38:01.684Z",
+    "public_since": null,
+    "public": "Em Revisão",
+    "author": "560cd81f-8ef0-4e31-b6d8-3fb763b3c055",
+    "mainImage": "ed-hardie-Y5PSyMm8nMk-unsplash.jpg",
+    "slug": "the-importance-of-software-updates"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 10,
+  "fields": {
+    "title": "Security in Cloud Environments",
+    "description": "<p>The adoption of cloud computing has transformed how organizations store, process, and manage data. While cloud platforms offer scalability and flexibility, they also introduce unique security challenges that must be carefully managed.</p><p><br></p><p>One of the key concepts in cloud security is the shared responsibility model. Cloud providers are responsible for securing the underlying infrastructure, while customers are responsible for protecting their data, applications, and configurations. Misunderstanding this model can lead to significant security gaps.</p><p><br></p><p>Misconfigurations are among the most common causes of cloud security incidents. Examples include publicly exposed storage buckets, overly permissive access controls, and lack of encryption. These issues can result in data breaches and compliance violations.</p><p><br></p><p>To secure cloud environments, organizations should implement strong identity and access management (IAM), enforce least-privilege principles, and enable logging and monitoring. Encryption of data at rest and in transit is also essential. Additionally, continuous security assessments and compliance checks can help identify and address vulnerabilities.</p><p><br></p><p>As cloud adoption continues to grow, a well-defined cloud security strategy is essential to protect sensitive data and maintain trust.</p>",
+    "tags": "Cloud Security, IAM, Data Protection, Shared Responsibility, Encryption",
+    "createdAt": "2026-03-30T13:42:37.263Z",
+    "public_since": null,
+    "public": "Em Revisão",
+    "author": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+    "mainImage": "growtika-8zB4P0eafrs-unsplash.jpg",
+    "slug": "security-in-cloud-environments"
+  }
+},
+{
+  "model": "business.article",
+  "pk": 11,
+  "fields": {
+    "title": "The Human Factor in Cybersecurity",
+    "description": "<p>Despite significant advancements in cybersecurity technologies, human behavior remains one of the most critical vulnerabilities in any organization. Many successful cyberattacks exploit human error rather than technical weaknesses, making the “human factor” a central concern in security strategies.</p><p><br></p><p>Common issues include weak passwords, reuse of credentials, falling for phishing attacks, and mishandling sensitive information. Even well-designed security systems can be compromised if users are not adequately trained or aware of potential risks.</p><p><br></p><p>To address this challenge, organizations must invest in continuous security awareness programs. Training should go beyond basic guidelines and include real-world scenarios, interactive sessions, and regular updates on emerging threats. Creating a culture of security awareness encourages employees to take responsibility for protecting organizational assets.</p><p><br></p><p>In addition to training, organizations should implement policies that support secure behavior, such as enforcing strong password requirements and using multi-factor authentication. Monitoring and feedback mechanisms can also help identify areas for improvement.</p><p><br></p><p>Ultimately, cybersecurity is a shared responsibility. By empowering employees with knowledge and tools, organizations can significantly reduce the risk of human-related security incidents.</p>",
+    "tags": "Human Factor, Security Awareness, Training, Cyber Risk, Organizational Culture",
+    "createdAt": "2026-03-30T13:44:02.704Z",
+    "public_since": null,
+    "public": "Privado",
+    "author": "b3eb49d8-a4ce-4d55-858d-b3a3de7d1b0a",
+    "mainImage": "freestocks-I_pOqP6kCOI-unsplash.jpg",
+    "slug": "the-human-factor-in-cybersecurity"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 1,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-13T20:20:27.164Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 2,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T01:28:20.747Z",
+    "logout_time": "2026-03-14T01:36:09.921Z",
+    "session_hash": "ab5110a70c2a7990fabccd8650165a518de1d6232b7609b9c098288282715416"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 3,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T01:36:17.967Z",
+    "logout_time": "2026-03-14T01:42:46.095Z",
+    "session_hash": "da4d3d5e68e3ac42bdac801d6619600b0f9e171d2e68e6329d140449dbf6cd63"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 4,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T01:43:08.698Z",
+    "logout_time": "2026-03-14T21:18:36.398Z",
+    "session_hash": "d303d9930950a5acb8940250e0b60ffe6b9d2637eef019553d54d6d05340f895"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 5,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T12:19:51.498Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 6,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T14:36:37.585Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 7,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:15:06.806Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 8,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "joao",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:18:42.325Z",
+    "logout_time": "2026-03-14T21:18:49.196Z",
+    "session_hash": "c959e4abef4edcb2c400cb7bda9626728188430e52544e148b3e8f38bfe4686e"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 9,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:18:54.381Z",
+    "logout_time": "2026-03-14T22:00:18.846Z",
+    "session_hash": "d9096629018f6940b5ec46fe6b8ec8b1881e06f2d92e18d06a644f0003ea2a84"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 10,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:52:47.719Z",
+    "logout_time": "2026-03-14T22:00:18.846Z",
+    "session_hash": "d9096629018f6940b5ec46fe6b8ec8b1881e06f2d92e18d06a644f0003ea2a84"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 11,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:53:14.513Z",
+    "logout_time": "2026-03-14T22:00:18.846Z",
+    "session_hash": "d9096629018f6940b5ec46fe6b8ec8b1881e06f2d92e18d06a644f0003ea2a84"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 12,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T21:56:46.722Z",
+    "logout_time": "2026-03-14T22:00:18.846Z",
+    "session_hash": "d9096629018f6940b5ec46fe6b8ec8b1881e06f2d92e18d06a644f0003ea2a84"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 13,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "joao",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T22:00:27.262Z",
+    "logout_time": "2026-03-14T22:01:12.046Z",
+    "session_hash": "ea55021b7fe3dc32d07b62e532e899778fd87102dfd04738258a7d917a271fb3"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 14,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-14T22:01:17.126Z",
+    "logout_time": "2026-03-22T22:27:14.945Z",
+    "session_hash": "6a7da8f5847bfe3edab87bc7de2d3fde44d081806f81eeba28cfb8c534e640bf"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 15,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T11:46:38.567Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 16,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T12:24:19.332Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 17,
+  "fields": {
+    "user_agent": "PostmanRuntime/7.51.1",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "*/*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T12:24:48.446Z",
+    "logout_time": null,
+    "session_hash": "4d9bea14c0f8d3e67098084d52d877bb415cb2936c3ac04e813cfb50ab7657c7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 18,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T22:27:54.256Z",
+    "logout_time": "2026-03-22T22:50:43.048Z",
+    "session_hash": "7110356ec38af77e203b4ed902ab6211f36df6b6dff90989098114221c9182fb"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 19,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T22:50:54.317Z",
+    "logout_time": "2026-03-22T22:50:56.446Z",
+    "session_hash": "bc5bf92e2fbd89bfc1bf82ecada386aff809e3b9581accf7ce34486156015981"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 20,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-22T22:51:08.833Z",
+    "logout_time": "2026-03-22T23:15:54.341Z",
+    "session_hash": "d34db2f2abc2208c4219408fabba398a2359f3855a78ec304c022b049125c13d"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 21,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-23T11:10:53.786Z",
+    "logout_time": "2026-03-23T11:11:05.620Z",
+    "session_hash": "797b92faf94f4944929caf79534a2e406db987c3db680af722fe93641480cd6a"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 22,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-23T11:11:22.135Z",
+    "logout_time": "2026-03-23T11:15:39.418Z",
+    "session_hash": "ea945de258a90489fe7f658486ba8fb71a5a19b80188b77f50363f267565b760"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 23,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-23T12:24:36.181Z",
+    "logout_time": "2026-03-23T17:24:16.606Z",
+    "session_hash": "b3781fcc28fd7cc19b4e186e5f72b03d9e23c6eaa379c74124489cd7ab721625"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 24,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-23T17:38:56.344Z",
+    "logout_time": "2026-03-23T17:52:38.287Z",
+    "session_hash": "f30a5e45ede1d4fd90194382b6fa5c16a9152f5f3e5285637ce32d656d8af15c"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 25,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-23T17:52:49.781Z",
+    "logout_time": "2026-03-23T18:16:46.994Z",
+    "session_hash": "268cffb5f64f3f0a2c2e535d5041793f7a45f5338b20b086fabd235a7ab3895c"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 26,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-24T15:50:06.971Z",
+    "logout_time": "2026-03-24T15:50:09.851Z",
+    "session_hash": "38a7fe879f7920d94b2f832a7f7dd4df23798f034fbfe8e51265b591a8dc305b"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 27,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-25T22:27:06.346Z",
+    "logout_time": "2026-03-26T17:00:59.178Z",
+    "session_hash": "5d0cac257b986744bc7d5a21c44d4403793a93fe26abdb137ea03fa55d93cedf"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 28,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-26T18:42:52.163Z",
+    "logout_time": "2026-03-26T19:04:48.059Z",
+    "session_hash": "6a52c23f3a185fd1cdfacb5f65008cad0f8b138789c2c23cf04f1b3d9be29cdc"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 29,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-26T19:04:59.333Z",
+    "logout_time": "2026-03-26T19:37:34.882Z",
+    "session_hash": "3665f77c1cd780cee639bd51f3db5662d86ae8b6fbb208c93ecab292b6ff12ba"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 30,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-26T22:36:17.161Z",
+    "logout_time": "2026-03-28T15:46:03.787Z",
+    "session_hash": "3a0694eb83b03012cb23ee69e05e27d05043d1a84c34076c70825f5d890cd471"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 31,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-28T15:46:15.720Z",
+    "logout_time": "2026-03-28T15:47:08.518Z",
+    "session_hash": "3153b7f65f0821f227eff705f87f05f0cdd59516698626265ce38dfbccd5979e"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 32,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-28T16:56:36.012Z",
+    "logout_time": "2026-03-28T17:27:46.677Z",
+    "session_hash": "24520747c21b16c7a82b4a4bd3d949b11b42b86ec8ff90ecddec9a45fa8474a6"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 33,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-28T17:27:55.669Z",
+    "logout_time": "2026-03-28T18:27:37.138Z",
+    "session_hash": "ddcbf7b04218f60eebd6c848ecb61e943a43d948b6d0ee657bb7f72d16863a8c"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 34,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/loginsession/",
+    "attempt_time": "2026-03-29T14:29:07.932Z",
+    "logout_time": "2026-03-29T14:52:23.384Z",
+    "session_hash": "d7adcc336324d912b9683ac5084cc352477a71e312551c4d86e2becc1af33b33"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 35,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-29T14:52:29.322Z",
+    "logout_time": "2026-03-29T16:36:32.212Z",
+    "session_hash": "aa6d7e9673ca436865c70be77df89ffb98dc11a7172274f21ef46a1aa3cdebc7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 36,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-29T15:04:55.091Z",
+    "logout_time": "2026-03-29T16:36:32.212Z",
+    "session_hash": "aa6d7e9673ca436865c70be77df89ffb98dc11a7172274f21ef46a1aa3cdebc7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 37,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-29T16:36:37.384Z",
+    "logout_time": "2026-03-29T16:37:14.923Z",
+    "session_hash": "6fe4043ee84b6adb25823b1bbfa8fd2cd119808c6d52edb344764e643d15b6f7"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 38,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-29T16:37:40.273Z",
+    "logout_time": "2026-03-30T13:32:38.242Z",
+    "session_hash": "cd373f6edd9da5617bbde0541fc9de6a53bc0359f852d529ef0695124b034849"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 39,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "joao",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T13:32:45.711Z",
+    "logout_time": "2026-03-30T13:38:21.806Z",
+    "session_hash": "7a3e32787fe5e1a367c88565f07176deadb32db10a78b5a59348511e3c192847"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 40,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T13:38:26.435Z",
+    "logout_time": "2026-03-30T13:59:22.764Z",
+    "session_hash": "fdc2c4d1a9e2395a5373d2e7ccc91701840451269ff705af6eef0327f0811b0d"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 41,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T13:59:43.190Z",
+    "logout_time": "2026-03-30T14:07:28.455Z",
+    "session_hash": "9e3df18f1e98d07deee6c96fc1e1e3f19c439d47e0201a37c29df7baaf8fd179"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 42,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T14:07:32.799Z",
+    "logout_time": "2026-03-30T14:23:27.699Z",
+    "session_hash": "590f5bc993b6a13f86ff42a77b8123bbe5a917ee90ff2dad8ed1135aa0a1ee48"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 43,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T14:23:34.761Z",
+    "logout_time": "2026-03-30T14:25:17.212Z",
+    "session_hash": "daee6f23a235036afce4510fa3e4015bf8dc2f716f2af631a9944b249ca9c909"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 44,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T14:25:24.183Z",
+    "logout_time": "2026-03-30T14:26:35.007Z",
+    "session_hash": "f39254cf30fcb9e3cf5df6b6a7afb9437af0c8eeb315624579f82585a706a194"
+  }
+},
+{
+  "model": "axes.accesslog",
+  "pk": 45,
+  "fields": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "ip_address": "127.0.0.1",
+    "username": "pedro",
+    "http_accept": "application/json, text/plain, */*",
+    "path_info": "/api/login/",
+    "attempt_time": "2026-03-30T14:28:48.729Z",
+    "logout_time": null,
+    "session_hash": "16733a6088f784079eab1f52fb2f78447ea2022c0efb254f00edd2d0e2432f20"
+  }
+}
+]
