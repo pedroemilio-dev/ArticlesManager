@@ -12,9 +12,9 @@ class UserProfile(AbstractUser):
 
 class Article(models.Model):
     class PublicStatus(models.TextChoices):
-        PUBLIC = "Público", "Público"
-        PRIVATE = "Privado", "Privado"
-        REVISION = "Em Revisão", "Em Revisão"
+        PUBLIC = "Public", "Public"
+        PRIVATE = "Private", "Private"
+        REVISION = "In Revision", "In Revision"
         
     title = models.CharField(max_length=1000)
     description = models.TextField()

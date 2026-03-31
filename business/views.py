@@ -209,7 +209,7 @@ class BaseArticleDetailView(generics.RetrieveAPIView):
     def get_queryset(self):
         if self.request.user.is_authenticated:
             return Article.objects.all()
-        return Article.objects.filter(public="Público")
+        return Article.objects.filter(public="Public")
 
 class ArticleDetailViewBackend(BaseArticleDetailView):
     authentication_classes = [TokenAuthentication]
@@ -224,7 +224,7 @@ class ListArticleView(generics.ListAPIView):
     def get_queryset(self):
         if self.request.user.is_authenticated:
             return Article.objects.all()
-        return Article.objects.filter(public="Público").order_by('-public_since')
+        return Article.objects.filter(public="Public").order_by('-public_since')
 
 class BaseCreateArticleView(generics.CreateAPIView):
     serializer_class = CreateArticleSerializer
