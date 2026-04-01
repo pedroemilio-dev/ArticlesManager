@@ -49,6 +49,44 @@ The application uses Django's CSRF protection on all state-changing requests, wi
 ### Not yet implemented
 - [ ] User management frontend
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/MainPage.png" width="800"/>
+  <br/>
+  <em>Public article listing</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/ArticlePage.png" width="800"/>
+  <br/>
+  <em>Article Detail View</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/LoginPage.png" width="800"/>
+  <br/>
+  <em>Login Page</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/ArticleManagement.png" width="800"/>
+  <br/>
+  <em>Article Management Dashboard</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/CreateArticlePage.png" width="800"/>
+  <br/>
+  <em>Create Article</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/EditArticlePage.png" width="800"/>
+  <br/>
+  <em>Edit article</em>
+</p>
+
 ## Getting Started
 
 ### Prerequisites
