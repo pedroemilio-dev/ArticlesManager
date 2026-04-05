@@ -1,9 +1,9 @@
 # ArticlesManager
 
 ## Overview
-ArticlesManager is an internal article management system designed for companies. It allows teams to create, edit, remove and view articles, with a public-facing frontend and a full REST API for backend management.
+ArticlesManager is an internal article management system designed for companies. It allows teams to create, edit, remove, and view articles, with a public-facing frontend and a full REST API for backend management.
 
-Unauthenticated users can browse public articles. Authenticated users have access to the full article dashboard where they can manage all articles regardless of status. User management (list, create, edit, delete) is implemented on the backend and available via the REST API.
+Unauthenticated users can browse public articles. Authenticated users have access to the full article dashboard, where they can manage all articles regardless of status. User management (list, create, edit, delete) is implemented on the backend and available via the REST API.
 
 The application uses Django's CSRF protection on all state-changing requests, with session-based authentication on the frontend and token-based authentication on the backend.
 
@@ -103,8 +103,18 @@ The application uses Django's CSRF protection on all state-changing requests, wi
 
 ### Prerequisites
 - Python 3.12+
-- Docker
+- Docker Desktop
 - Git
+
+If you don't have the required tools installed, run the following commands on Ubuntu:
+```bash
+# Python
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+
+# Git
+sudo apt install git -y
+```
 
 ### Installation
 
@@ -116,7 +126,7 @@ cd ArticlesManager
 
 2. **Create and activate a virtual environment**
 ```bash
-python -m venv env
+python3 -m venv env
 
 # Linux/Mac
 source env/bin/activate
@@ -130,36 +140,44 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Run migrations**
+4. **Start the database**
+```bash
+docker-compose up --build -d
+```
+
+5. **Run migrations**
 ```bash
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-5. **Load the database fixtures**
+6. **Load the database fixtures**
 ```bash
 python3 manage.py loaddata fixtures/db.json
 ```
 
-6. **Run the development server**
+7. **Run the development server**
 ```bash
 python3 manage.py runserver
 ```
 
-7. **Access the application**
+8. **Access the application**
 
 Open your browser and go to `http://localhost:8000`
+
+> **Note:** The frontend is not included in this repository. The Django server will show a `TemplateDoesNotExist` error at `/` — this is expected. All API endpoints are available at `http://localhost:8000/api/` and can be tested via Postman.
 
 ### Testing the API (Postman)
 The backend API is available at `http://localhost:8000`
 
 To test the endpoints:
-1. Make a `GET` request to `http://localhost:8000/api/csrf/` to obtain the CSRF token
-2. In the **Scripts → Post-response** tab, add:
+1. Create an environment in Postman
+2. Make a `GET` request to `http://localhost:8000/api/csrf/` to obtain the CSRF token
+3. In the **Scripts → Post-response** tab, add:
 ```javascript
 pm.environment.set("csrfToken", pm.cookies.get("csrftoken"));
 ```
-3. Use `{{csrfToken}}` in the `X-CSRFToken` header for all subsequent requests
+4. Use `{{csrfToken}}` in the `X-CSRFToken` header for all subsequent requests
 
 ### Default credentials
 | Username | Password | Role |
@@ -171,7 +189,7 @@ pm.environment.set("csrfToken", pm.cookies.get("csrftoken"));
 
 Before deploying to production, make sure to:
 
-1. **SECRET_KEY** — Replace the hardcoded key with a secure randomly generated key stored in an environment variable:
+1. **SECRET_KEY** — Replace the hardcoded key with a secure, randomly generated key stored in an environment variable:
 ```
 SECRET_KEY=your-secure-random-key
 ```
