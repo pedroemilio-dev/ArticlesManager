@@ -76,6 +76,18 @@ The application uses Django's CSRF protection on all state-changing requests, wi
 </p>
 
 <p align="center">
+  <img src="screenshots/ArticleManagementFilters.png" width="800"/>
+  <br/>
+  <em>Article Management Dashboard Using Basic Filter</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/ArticleManagementVisibilityFilter.png" width="800"/>
+  <br/>
+  <em>Article Management Dashboard Using Visibility Filter</em>
+</p>
+
+<p align="center">
   <img src="screenshots/CreateArticlePage.png" width="800"/>
   <br/>
   <em>Create Article</em>
